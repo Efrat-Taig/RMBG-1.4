@@ -13,7 +13,8 @@ Developed by BRIA AI, RMBG v1.4 is available as a source-available model for non
 [CLICK HERE FOR A DEMO](https://huggingface.co/spaces/briaai/BRIA-RMBG-1.4)
 
 
-![examples](t4.png)
+<img src="https://github.com/Efrat-Taig/RMBG-1.4/blob/main/t4.png" width="700">
+
 
 ### Model Description
 
@@ -62,8 +63,7 @@ For clarity, we provide our data distribution according to different categories,
 
 ## Qualitative Evaluation
 
-![examples](results.png)
-
+<img src="https://github.com/Efrat-Taig/RMBG-1.4/blob/main/results.png" width="700">
 
 ## Architecture
 
