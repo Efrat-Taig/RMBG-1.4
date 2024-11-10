@@ -1,30 +1,6 @@
----
-license: other
-license_name: bria-rmbg-1.4
-license_link: https://bria.ai/bria-huggingface-model-license-agreement/
-pipeline_tag: image-segmentation
-tags:
-- remove background
-- background
-- background-removal
-- Pytorch
-- vision
-- legal liability
-- transformers
-
-extra_gated_description: RMBG v1.4 is available as a source-available model for non-commercial use
-extra_gated_heading: "Fill in this form to get instant access"
-extra_gated_fields:
-  Name: text
-  Company/Org name: text
-  Org Type (Early/Growth Startup, Enterprise, Academy): text
-  Role: text
-  Country: text
-  Email: text
-  By submitting this form, I agree to BRIA’s Privacy policy and Terms & conditions, see links below: checkbox
----
 
 # BRIA Background Removal v1.4 Model Card
+
 
 RMBG v1.4 is our state-of-the-art background removal model, designed to effectively separate foreground from background in a range of
 categories and image types. This model has been trained on a carefully selected dataset, which includes:
@@ -47,8 +23,6 @@ Developed by BRIA AI, RMBG v1.4 is available as a source-available model for non
 
 - **Model Description:** BRIA RMBG 1.4 is a saliency segmentation model trained exclusively on a professional-grade dataset.
 - **BRIA:** Resources for more information: [BRIA AI](https://bria.ai/)
-
-
 
 ## Training data
 Bria-RMBG model was trained with over 12,000 high-quality, high-resolution, manually labeled (pixel-wise accuracy), fully licensed images.
@@ -155,4 +129,3 @@ no_bg_image = Image.new("RGBA", pil_im.size, (0,0,0,0))
 orig_image = Image.open(image_path)
 no_bg_image.paste(orig_image, mask=pil_im)
 ```
-
